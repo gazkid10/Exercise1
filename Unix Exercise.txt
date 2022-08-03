@@ -1,0 +1,768 @@
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1
+$ git clone https://github.com/Revature-Training-1302/exercises.git
+Cloning into 'exercises'...
+remote: Enumerating objects: 41, done.
+remote: Counting objects: 100% (41/41), done.
+remote: Compressing objects: 100% (30/30), done.
+remote: Total 41 (delta 4), reused 38 (delta 4), pack-reused 0
+Receiving objects: 100% (41/41), 4.67 KiB | 597.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1
+$ ls
+exercises/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1
+$ cd exercises
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises (main)
+$ ls
+dummy_file  week1/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises (main)
+$ cd week1
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1 (main)
+$ cd unix_exercise
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ vim instructions
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ vim instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ cd house
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  treasure2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd
+
+lucky@lucky-PC MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ source/
+ week1/
+
+lucky@lucky-PC MINGW64 ~
+$ cd Desktop
+
+lucky@lucky-PC MINGW64 ~/Desktop
+$ ls
+ Ares.lnk*
+'C C++'/
+ CodeBlocks.lnk*
+'Didi Mixtape'/
+'Eclipse IDE for Java Developers - 2022-06.lnk'*
+ Example/
+ Exercise1/
+ Kelly/
+'MinGW Installer.lnk'*
+'Person 1 - Chrome.lnk'*
+'Personal - Edge.lnk'*
+ Revature-week1/
+'System (Network Engineering) - Chrome.lnk'*
+'This PC - Shortcut.lnk'*
+ WindowsImageBackup/
+'YouTube (1).lnk'*
+ YouTube.lnk*
+ Zoom.lnk*
+ desktop.ini
+ eclipse-jee-juno-SR1-win32-x86_64/
+ groovy-grails-tool-suite-3.2.0.RELEASE-e4.2.2-win32-x86_64/
+ javaeetutorial6-1/
+ jersey-archive-1.17/
+ notes/
+ struts-2.3.14-all/
+ test/
+ week1/
+
+lucky@lucky-PC MINGW64 ~/Desktop
+$ cd Revature-week1/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1
+$ ls
+exercises/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1
+$ cd exercises/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises (main)
+$ ls
+dummy_file  week1/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises (main)
+$ cd week1
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1 (main)
+$ cd unix_exercise/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ cd house/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  treasure2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ../../../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+chest  house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ cd chest
+bash: cd: chest: Not a directory
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ vim chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+chest  house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ cd house/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+chest  house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1 (main)
+$ cd unix_exercise
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+chest  house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ^C
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+chest  house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ rm chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ mkdir chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ cd
+
+lucky@lucky-PC MINGW64 ~
+$ cd /Desktop/Revature-week1/exercises/week1/unix_exercise
+bash: cd: /Desktop/Revature-week1/exercises/week1/unix_exercise: No such file or directory
+
+lucky@lucky-PC MINGW64 ~
+$ cd Desktop
+
+lucky@lucky-PC MINGW64 ~/Desktop
+$ cd Revature-week1/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1
+$ cd e
+bash: cd: e: No such file or directory
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1
+$ cd exercises/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises (main)
+$ cd week1/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1 (main)
+$ cd unix_exercise/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ cd h
+bash: cd: h: No such file or directory
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise (main)
+$ cd house/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cdb
+bash: cdb: command not found
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cd basement/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ touch treasure2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  treasure2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ^C
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1 trash2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ $ mv treasure1 ../../../chest
+bash: $: command not found
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ../../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cd basement/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/basement (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ touch trasure
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  chest  kitchen/  living-room/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ rm chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4 trash5
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd b
+balcony/  bathroom/ bedroom1/ bedroom2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10 trash11
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8 t
+toy     trash8  trash9
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8 trash9
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  truck
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ../../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ cd floor2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12 trash13 trash14
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box2
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box3
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../../../chest
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ../../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd ../
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$ find . -name trash*
+
+lucky@lucky-PC MINGW64 ~/Desktop/Revature-week1/exercises/week1/unix_exercise/house (main)
+$
