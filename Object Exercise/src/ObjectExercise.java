@@ -8,11 +8,11 @@ public class ObjectExercise {
         HouseForSale house6 = new HouseForSale("Port Charlotte", 3, 2, 2046, 439800);
 
         System.out.println("Thank you for checking out our listing!");
-        String HouseForSaleString = house4.toString();
+        String HouseForSaleString = house1.toString() + "\n" + house3.toString();
         System.out.println(HouseForSaleString);
 
 
-        System.out.println("These cities are the same: " + house2.equals(house3));
+        System.out.println("These cities are the same: " + house1.equals(house3));
 
         System.out.println(house4.getClass());
 
@@ -20,6 +20,6 @@ public class ObjectExercise {
         System.out.println(house2.hashCode());
         System.out.println(house6.hashCode());
         System.out.println(house5.hashCode());
-        System.out.println(house1.city.hashCode() == house3.city.hashCode());
+        System.out.println(house1.address.hashCode() == house3.address.hashCode());
     }
 }
