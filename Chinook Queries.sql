@@ -1,0 +1,16 @@
+select * from "Employee";
+select * from "Employee" where "LastName"  = 'King';
+select * from "Employee" where "FirstName" = 'Andrew' and "ReportsTo" isnull; 
+select * from "Album" order by "Title"  desc;
+select "FirstName" from "Customer" order by "City";
+select * from "Invoice" where "BillingAddress" like 'T%';
+select * from "Invoice" where "Total" between 15 and 50;
+select * from "Employee" where "HireDate" between '2003-06-01' and '2004-03-01';
+insert into "Genre" values (26, 'Dancehall');
+insert into "Genre" values (27, 'Afrobeat');
+insert into "Employee" values (9, 'Bentley', 'Knox', 'Customer Service Rep', 1, '1965-02-25', '2004-02-04', '14 Parry Road', 'Edmonton', 'AB', 'Canada', 'T5K 2N1', '+1 (780) 263-3564', '+1 (780) 428-6457', 'mrbentley@yahoo.com');
+insert into "Employee" values (10, 'Taylor', 'Orville', 'Network Administrator', 6, '1979-09-10', '2003-11-12', '10 Patrica Ave', 'Calgary', 'AB', 'Canada', 'T2P 5M5', '+1 (780) 234-3515', '+1 (780) 428-1257', 'ot90210@aol.com');
+insert into "Customer" values (60, 'Leon', 'Bailey', 'Aston Villa', '309 Bridgeport Court', 'Portmore', 'AF', 'Sweden', Null , '+34 914 564 789', Null, 'baileyallstar@villa.u', 4);
+insert into "Customer" values (61, 'Leonard', 'Bartley', Null, '7401 Prince Street', 'Lyon', Null, 'UK', Null, '+44 718 245 231', Null, 'lbartley@yahoo.com', 3);
+update "Customer" set "FirstName" = 'Robert', "LastName" = 'Walter' where "CustomerId" = 32;
+update "Artist" set "Name" = 'CCR' where "Name" = 'Creedence Clearwater Revival';
