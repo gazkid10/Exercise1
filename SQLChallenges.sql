@@ -99,5 +99,5 @@ insert into table10 values(3, 'Jill', 18);
 insert into table10 values(4, 'Jim', 21);
 insert into table10 values(5, 'Sally', 19);
 insert into table10 values(6, 'Jess', 20);
-insert into table10 values(7, 'Wll', 21)
-select SUM Age FROM table10;
+insert into table10 values(7, 'Wll', 21);
+select SUM(Age) FROM table10;
